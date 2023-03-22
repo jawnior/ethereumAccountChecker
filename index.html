@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./css/ethereum-eth-logo.png">
+    <title>Ethereum Account Checker</title>
+</head>
+<body>
+    <div id="box">
+        <img src="./css/ethereum-eth-logo.png">
+        <p>Check the amount of Ethereum transactions sent and current ETH balance.</p>
+        <textarea placeholder="Input the Ethereum address here:" id="textarea" rows="1" cols="50"></textarea><br>
+        <div id="button-container">
+            <button id="button">Get Information</button>
+            <button id="reset-button">Reset</button>
+        </div>
+        <h4 id="number"></h4>
+        <h4 id="balance"></h4>
+    </div>
+    <div id="contact">
+        <div id="contact-container">
+            <a href="https://www.linkedin.com/in/jakub-jawniak-406a16231/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:jakub.jawniak@gmail.com"><i class="fa-solid fa-square-envelope"></i></a>
+            <a href="https://github.com/jawnior" target="_blank"><i class='fa fa-github'></i></a>
+        <div>
+    </div>
+    <script src="https://kit.fontawesome.com/ee538a191e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.3.6/dist/web3.min.js"></script>
+    <script src='./config.js'></script>
+    <script src="./index.js"></script>
+</body>
+</html>
+

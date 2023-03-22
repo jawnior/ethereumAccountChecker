@@ -1,0 +1,87 @@
+body {
+    background-color: #252526;
+    font-family: "Lato", "Ubuntu";
+}
+
+/* BOX */
+
+#box {
+    background-color: #E4E6EB;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    border: 1px solid grey;
+    border-radius: 40px;
+}
+
+#box img {
+    height: 162.9px;
+    width: 162.9px;
+}
+
+#box p {
+    text-align: center;
+    font-weight: 800;
+}
+
+#textarea {
+    resize: none;
+}
+
+#button,
+#reset-button {
+    background-color: #252526;
+    color: #fff;
+    border-radius: 20px;
+    border: 2px solid #2d2e2f;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+#button:hover,
+#reset-button:hover {
+    background-color: #888a8d;
+}
+
+#reset-button {
+    display: none;
+}
+
+#balance {
+    margin-top: 0;
+}
+
+/* CONTACT */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#contact a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+#contact-container i {
+    font-size: 32px;
+    margin: 0 10px;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+#contact-container i:hover {
+    color: grey;
+}
