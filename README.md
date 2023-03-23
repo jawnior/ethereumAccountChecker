@@ -25,5 +25,6 @@ The purpose of creating this project was to exercise a JavaScript knowledge and 
 
 ## To-do
 
+- Create a responsive design for mobile phones
 - Add a live updating current block number and current gas price information.
 - Create the Polygon Account Checker.
