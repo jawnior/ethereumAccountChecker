@@ -2,7 +2,7 @@
 
 Ethereum Account Checker - a website where you can check the number of transactions sent by the given Ethereum account and its current balance.
 
-Live demo [_here_](https://friendly-lokum-c7cbb4.netlify.app/).
+Live demo [_here_](https://kaleidoscopic-salmiakki-7cecdd.netlify.app/).
 
 ## General information
 
